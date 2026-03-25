@@ -1,0 +1,150 @@
+<HTML>
+<HEAD>
+    <TITLE>Turismo</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFF8DC" TEXT="#000000" LINK="#0000CC" VLINK="#660099">
+
+    <CENTER>
+        <H1><FONT COLOR="#006400">Turismo</FONT></H1>
+        <H3><FONT COLOR="#8B4513">Informações sobre destinos e viagens</FONT></H3>
+    </CENTER>
+
+    <HR WIDTH="100%">
+
+    <P>
+        Esta página reúne informações simples sobre alguns destinos turísticos
+        conhecidos e apresenta dados básicos para quem deseja pesquisar lugares
+        para visitar.
+    </P>
+
+    <P>
+        Aqui você pode consultar exemplos de cidades, ver características gerais
+        dos destinos e acessar outra página com mais informações.
+    </P>
+
+
+    <CENTER>
+        <IMG SRC="turismo.jpg" TITLE="Turismo" WIDTH="600">
+    </CENTER>
+
+    <BR>
+
+    <P>
+        <A HREF="destinos.html">Ver página com mais destinos</A>
+    </P>
+
+    <P>
+        <A HREF="#formulario">Ir para opinião do visitante</A>
+    </P>
+
+    <HR WIDTH="100%">
+
+    <H2><FONT COLOR="#2E8B57">Destinos em destaque</FONT></H2>
+
+    <UL>
+        <LI>Florianópolis</LI>
+        <LI>Gramado</LI>
+        <LI>Salvador</LI>
+        <LI>Rio de Janeiro</LI>
+    </UL>
+
+
+    <H2><FONT COLOR="#2E8B57">Descrição de alguns lugares</FONT></H2>
+
+    <DL>
+        <DT>Florianópolis</DT>
+        <DD>Destino conhecido pelas praias e pelas paisagens naturais.</DD>
+
+        <DT>Gramado</DT>
+        <DD>Cidade bastante visitada em períodos de frio e em épocas festivas.</DD>
+
+        <DT>Salvador</DT>
+        <DD>Local famoso pela cultura, pela história e pelo litoral.</DD>
+    </DL>
+
+    <H2><FONT COLOR="#2E8B57">Resumo de destinos</FONT></H2>
+
+    <TABLE BORDER="1" WIDTH="75%" CELLPADDING="5">
+        <TR BGCOLOR="#ADD8E6">
+            <TH>Destino</TH>
+            <TH>Atração principal</TH>
+            <TH>Clima</TH>
+            <TH>Época mais procurada</TH>
+        </TR>
+        <TR>
+            <TD>Florianópolis</TD>
+            <TD>Praias</TD>
+            <TD>Quente</TD>
+            <TD>Verão</TD>
+        </TR>
+        <TR>
+            <TD>Gramado</TD>
+            <TD>Passeios e eventos</TD>
+            <TD>Frio</TD>
+            <TD>Inverno</TD>
+        </TR>
+        <TR>
+            <TD>Salvador</TD>
+            <TD>Cultura e litoral</TD>
+            <TD>Quente</TD>
+            <TD>O ano todo</TD>
+        </TR>
+        <TR>
+            <TD>Rio de Janeiro</TD>
+            <TD>Paisagens e praias</TD>
+            <TD>Quente</TD>
+            <TD>Verão</TD>
+        </TR>
+    </TABLE>
+
+    <BR>
+
+    <A NAME="formulario"></A>
+    <H2><FONT COLOR="#2E8B57">Opinião do visitante</FONT></H2>
+
+    <FORM>
+        Nome:
+        <INPUT TYPE="TEXT" NAME="nome" SIZE="30">
+        <BR><BR>
+
+        Cidade de interesse:
+        <INPUT TYPE="TEXT" NAME="cidade" SIZE="30">
+        <BR><BR>
+
+        Destino que mais chamou atenção:
+        <SELECT NAME="destino">
+            <OPTION>Florianópolis</OPTION>
+            <OPTION>Gramado</OPTION>
+            <OPTION>Salvador</OPTION>
+            <OPTION>Rio de Janeiro</OPTION>
+        </SELECT>
+        <BR><BR>
+
+        Gostou da página?
+        <BR>
+        <INPUT TYPE="RADIO" NAME="opiniao" VALUE="sim"> Sim
+        <BR>
+        <INPUT TYPE="RADIO" NAME="opiniao" VALUE="nao"> Não
+        <BR><BR>
+
+        O que mais achou interessante:
+        <BR>
+        <INPUT TYPE="CHECKBOX" NAME="op1" VALUE="destinos"> Destinos
+        <BR>
+        <INPUT TYPE="CHECKBOX" NAME="op2" VALUE="tabela"> Tabela
+        <BR>
+        <INPUT TYPE="CHECKBOX" NAME="op3" VALUE="informacoes"> Informações
+        <BR><BR>
+
+        Comentário:
+        <BR>
+        <TEXTAREA NAME="comentario" ROWS="4" COLS="35"></TEXTAREA>
+        <BR><BR>
+
+        <INPUT TYPE="SUBMIT" VALUE="Enviar">
+        <INPUT TYPE="RESET" VALUE="Limpar">
+    </FORM>
+
+</BODY>
+</HTML>
